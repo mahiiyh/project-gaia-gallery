@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/widgets/navigation.css">
+    <link rel="stylesheet" href="css/blur-card.css">
+    <link rel="stylesheet" href="css/splash.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>GAIA</h1>
+        <nav>
+            <a href="index.html">Back to home</a>
+        </nav>
+    </header>
+    <div class="elementor-widget-container">
+        <div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+            <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+                <div class="swiper-slide">
+                    <a data-elementor-open-lightbox="no" href="" target="_blank">
+                        <figure class="swiper-slide-inner">
+                            <img decoding="async" class="swiper-slide-image" src="gallery/carousel/wildlife.jpg?" alt="Wildlife"/>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a data-elementor-open-lightbox="no" href="" target="_blank">
+                        <figure class="swiper-slide-inner">
+                            <img decoding="async" class="swiper-slide-image" src="gallery/carousel/animal-care.jpg" alt="Animal Care"/>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a data-elementor-open-lightbox="no" href="" target="_blank">
+                        <figure class="swiper-slide-inner">
+                            <img decoding="async" class="swiper-slide-image" src="gallery/carousel/forest-cleanup.jpg" alt="Forest Cleanup"/>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a data-elementor-open-lightbox="no" href="" target="_blank">
+                        <figure class="swiper-slide-inner">
+                            <img decoding="async" class="swiper-slide-image" src="gallery/carousel/beach-cleanup.jpg" alt="Beach Cleanup"/>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a data-elementor-open-lightbox="no" href="" target="_blank">
+                        <figure class="swiper-slide-inner">
+                            <img decoding="async" class="swiper-slide-image" src="gallery/carousel/awarenesss.jpg" alt="Awarenesss"/>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-pagination">
+                    <div class="elementor-swiper-button">
+
+                        <div class="elementor-swiper-button-prev">
+                            <i class="eicon-chevron-left" aria-hidden="true"></i>
+                            <span class="elementor-screen-only">Previous</span>
+                        </div>
+            
+                        <div class="elementor-swiper-button-next">
+                            <i class="eicon-chevron-right" aria-hidden="true"></i>
+                            <span class="elementor-screen-only">Next</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="gallery" class="card-section">
+
+        <h3 class="section-title">Gallery</h3>
+
+        <section class="blurcard-section">
+    
+            <div class="blurcard-grid">
+
+                <a class="blurcard" href="">
+                    <div class="blurcard__background"
+                         style="background-image: url(gallery/carousel/wildlife.jpg)"></div>
+                    <div class="blurcard__content">
+                        <p class="blurcard__category">Discover</p>
+                        <h3 class="blurcard__heading">Wildlife</h3>
+                    </div>
+                </a>
+    
+                <a class="blurcard" href="">
+                    <div class="blurcard__background"
+                         style="background-image: url(gallery/carousel/animal-care.jpg)"></div>
+                    <div class="blurcard__content">
+                        <p class="blurcard__category">Discover</p>
+                        <h3 class="blurcard__heading">Animal Care</h3>
+                    </div>
+                </a>
+    
+                <a class="blurcard" href="">
+                    <div class="blurcard__background"
+                         style="background-image: url(gallery/carousel/beach-cleanup.jpg)"></div>
+                    <div class="blurcard__content">
+                        <p class="blurcard__category">Discover</p>
+                        <h3 class="blurcard__heading">Cleanup Projects</h3>
+                    </div>
+                </a>
+
+                <a class="blurcard" href="">
+                    <div class="blurcard__background"
+                         style="background-image: url(gallery/carousel/awarenesss.jpg)"></div>
+                    <div class="blurcard__content">
+                        <p class="blurcard__category">Discover</p>
+                        <h3 class="blurcard__heading">Child Labour</h3>
+                    </div>
+                </a>
+    
+            </div>
+        </section>
+    
+    </section>
+
+
+
+
+    <footer>
+        <div class="wrapper">
+            <a class="logo" href="#">cknc<img src="assets/icon/logo.png" alt="Logo"></a>
+            <div class="footer-left">
+                <p class="copyright">Gaia Team</p>
+                <p class="footer-links"><a href="#">Contact Us</a> I <a href="#">Terms &amp; Conditions</a> I<a href="#">Privacy</a>
+                </p>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="social facebook">Facebook</a>
+                <a href="#" class="social twitter">Facebook</a>
+                <a href="#" class="social google">Facebook</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+    <script src="js/gallery.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/splash.js"></script>
+</body>
+</html>
