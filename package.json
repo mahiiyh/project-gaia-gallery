@@ -1,0 +1,33 @@
+{
+  "name": "project-gaia-gallery",
+  "version": "1.0.0",
+  "description": "IIT/UoW Web Design & Development Coursework project repository!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahiiyh/project-gaia-gallery.git"
+  },
+  "keywords": [
+    "web",
+    "design",
+    "develpment",
+    "coursework",
+    "project",
+    "html",
+    "css",
+    "javascript",
+    "wildlife",
+    "gallery",
+    "photos",
+    "thumbnails"
+  ],
+  "author": "Mahima Dharmasena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahiiyh/project-gaia-gallery/issues"
+  },
+  "homepage": "https://github.com/mahiiyh/project-gaia-gallery#readme"
+}
