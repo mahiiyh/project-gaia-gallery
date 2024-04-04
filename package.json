@@ -4,7 +4,8 @@
   "description": "IIT/UoW Web Design & Development Coursework project repository!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests specified\""
+    "test": "echo \"No tests specified\"",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/mahiiyh/project-gaia-gallery/issues"
   },
-  "homepage": "https://github.com/mahiiyh/project-gaia-gallery#readme"
+  "homepage": "https://github.com/mahiiyh/project-gaia-gallery#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
